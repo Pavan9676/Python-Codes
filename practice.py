@@ -1,6 +1,7 @@
-m = []
-n = int(input("Enter size of list: "))
-for i in range(n):
-    x = input("Enter string value: ")
-    m.append(x)
-print(m)
+a = [5, 10, 25, 25, 30, 35, 40]
+for i in range(len(a)):
+        if a[i] == a[i-1]:
+            print(a[i])
+
+        else:
+            print("not present in same values")
